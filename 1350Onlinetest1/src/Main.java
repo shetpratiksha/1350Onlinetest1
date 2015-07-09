@@ -10,9 +10,10 @@ public class Main {
 		
 		
 		EVM evm= new EVM();
-		evm.PowerON();
+		evm.P();
+		//evm.result();
+		//evm.ButtonPressed();
 		
-		evm.controlUnit.ballotUnit.ButtonPressed();
 		
 		//evm.ballotUnit.ButtonPressed();
 		
