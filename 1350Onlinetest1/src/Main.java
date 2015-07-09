@@ -7,8 +7,15 @@ public class Main {
 		
 		//Map<String, String> countryCapital = new HashMap<String, String>();
 		
-		EVMPowerButton epb = new EVMPowerButton();
-		epb.On();
+		
+		
+		EVM evm= new EVM();
+		evm.PowerON();
+		
+		evm.controlUnit.ballotUnit.ButtonPressed();
+		
+		//evm.ballotUnit.ButtonPressed();
+		
 		//evm.epb.Off();
 		
 	}
